@@ -22,7 +22,7 @@ http_archive(
 )
 
 # RxJS
-RXJS_VERSION = "6.0.0"
+RXJS_VERSION = "6.3.3"
 http_archive(
     name = "rxjs",
     url = "https://registry.yarnpkg.com/rxjs/-/rxjs-%s.tgz" % RXJS_VERSION,
